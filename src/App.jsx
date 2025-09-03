@@ -29,7 +29,7 @@ const Header = () => (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <div className='flex justify-center items-center'>
-            <span className=''><img src="./src/logo.png" alt="" className='w-20'/></span>    
+            <span className=''><img src="./src/assets/logo.png" alt="" className='w-20'/></span>    
             <h1 className="text-2xl font-bold text-gray-800">
               Squar <span className="text-indigo-600">Ft</span>
             </h1></div>
@@ -65,7 +65,7 @@ const HeroSection = () => (
 
 const ImageSection = () => (
   <div>
-    <img src="./src/img1.png" alt="Image 1" className='ml-6 md:ml-36'/>
+    <img src="./src/assets/img1.png" alt="Image 1" className='ml-6 md:ml-36'/>
 
   </div>
 );
@@ -193,8 +193,8 @@ const ContactSection = () => (
                     Chat with Us on WhatsApp
                 </a>
                 <div className="text-gray-600">
-                    <p><strong>Email:</strong> <a href="mailto:support@squarft.com" className="text-indigo-600 hover:underline">squarft.com@gmail.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+91XXXXXXXXXX" className="text-indigo-600 hover:underline">+91 8224004000</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:squarft.com@gmail.com" className="text-indigo-600 hover:underline">squarft.com@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+918224004000" className="text-indigo-600 hover:underline">+91 8224004000</a></p>
                 </div>
             </div>
         </div>
