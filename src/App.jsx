@@ -1,3 +1,5 @@
+import logo from './assets/logo.png';
+import img1 from './assets/img1.png';
 
 const ListPropertyIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
@@ -29,7 +31,7 @@ const Header = () => (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <div className='flex justify-center items-center'>
-            <span className=''><img src="./src/assets/logo.png" alt="" className='w-20'/></span>    
+            <span className=''><img src={logo} alt="" className='w-20'/></span>    
             <h1 className="text-2xl font-bold text-gray-800">
               Squar <span className="text-indigo-600">Ft</span>
             </h1></div>
@@ -65,7 +67,7 @@ const HeroSection = () => (
 
 const ImageSection = () => (
   <div>
-    <img src="./src/assets/img1.png" alt="Image 1" className='ml-6 md:ml-36'/>
+    <img src={img1} alt="Image 1" className='ml-6 md:ml-36'/>
 
   </div>
 );
