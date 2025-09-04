@@ -372,7 +372,7 @@ const Footer = () => (
             </a>
             {/* Instagram Icon */}
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/squarft?igsh=MWNwaXlrMTlvemE3bg=="
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 transform transition-transform duration-200"
