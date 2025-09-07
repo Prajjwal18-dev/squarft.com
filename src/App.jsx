@@ -1,5 +1,6 @@
 import logo from "./assets/logo.png";
 import img1 from "./assets/img1.png";
+import { Analytics } from "@vercel/analytics/next"
 
 const ListPropertyIcon = () => (
   <svg
@@ -412,6 +413,7 @@ export default function App() {
         <CTASection />
         <WhyJoinUsSection />
         <ContactSection />
+        <Analytics/>
       </main>
       <Footer />
     </div>
